@@ -1,0 +1,29 @@
+[{
+ "title" : "Big House",
+ "subtitle": "Melhor Bar da região da Augusta",
+ "categoria": "Bar",
+ "lat": "-23.5525266",
+ "lng": "-46.6534113"
+ },
+{
+    "title" : "Parque Trianon",
+    "subtitle": "Parque com muito verde na Av Paulista",
+    "categoria": "Parque",
+    "lat": "-23.5623276",
+    "lng": "-46.6573249"
+},
+{
+    "title" : "Starbucks",
+    "subtitle": "Melhor café da região da  Av Paulista, recomendado para quem tem bom gosto",
+    "categoria": "Cafeteria",
+    "lat": "-23.5658593",
+    "lng": "-46.6529462"
+},
+{
+    "title" : "Top Center",
+    "subtitle": "Shopping chines com varios contrabandos",
+    "categoria": "Museu",
+    "lat": "-23.5655065",
+    "lng": "-46.650555"
+}]
+
