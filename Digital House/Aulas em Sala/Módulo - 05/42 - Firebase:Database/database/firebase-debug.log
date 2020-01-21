@@ -1,0 +1,36 @@
+[debug] [2019-08-03T00:16:59.027Z] ----------------------------------------------------------------------
+[debug] [2019-08-03T00:16:59.029Z] Command:       /usr/local/Cellar/node/12.7.0/bin/node /usr/local/bin/firebase emulators:start --only firestore
+[debug] [2019-08-03T00:16:59.029Z] CLI Version:   7.2.2
+[debug] [2019-08-03T00:16:59.029Z] Platform:      darwin
+[debug] [2019-08-03T00:16:59.029Z] Node Version:  v12.7.0
+[debug] [2019-08-03T00:16:59.036Z] Time:          Fri Aug 02 2019 21:16:59 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2019-08-03T00:16:59.036Z] ----------------------------------------------------------------------
+[debug] 
+[warn] ⚠  Could not find config (firebase.json) so using defaults.
+[info] i  Starting emulators: ["firestore"]
+[warn] ⚠  No Firestore rules file specified in firebase.json, using default rules.
+[debug] [2019-08-03T00:16:59.064Z] Ignoring unsupported arg: projectId
+[debug] [2019-08-03T00:16:59.064Z] Ignoring unsupported arg: auto_download
+[debug] [2019-08-03T00:16:59.064Z] Starting emulator firestore with args {"host":"localhost","port":8080,"auto_download":true}
+[info] i  firestore: Emulator logging to firestore-debug.log
+[debug] [2019-08-03T00:17:00.893Z] API endpoint: http://
+[debug] [2019-08-03T00:17:00.893Z] localhost:8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+
+[info] ✔  firestore: Emulator started at http://localhost:8080
+[info] i  firestore: For testing set FIRESTORE_EMULATOR_HOST=localhost:8080
+[info] ✔  All emulators started, it is now safe to connect.
+[debug] [2019-08-03T00:17:49.183Z] Aug 02, 2019 9:17:49 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+
+[debug] [2019-08-03T00:17:49.246Z] Aug 02, 2019 9:17:49 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+
+[debug] [2019-08-03T00:17:49.283Z] Aug 02, 2019 9:17:49 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /favicon.ico
+

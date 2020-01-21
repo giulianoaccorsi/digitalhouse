@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ItF-m5-xmL">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Core_MLDigital" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkV-b0-3nS">
+                                <rect key="frame" x="0.0" y="188" width="414" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="sxO-Xe-o5r"/>
+                                </constraints>
+                                <state key="normal" title="Camera">
+                                    <color key="titleColor" red="1" green="0.49803921569999998" blue="0.043137254899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="abrirCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QST-0R-9nc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QB-CY-bU8">
+                                <rect key="frame" x="0.0" y="268" width="414" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Live Cam">
+                                    <color key="titleColor" red="1" green="0.49803921569999998" blue="0.043137254899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yb4-Tt-7X9" kind="show" id="ebY-ks-5Ij"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XkV-b0-3nS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Fn-uk-afb"/>
+                            <constraint firstItem="5QB-CY-bU8" firstAttribute="top" secondItem="XkV-b0-3nS" secondAttribute="bottom" constant="50" id="QFb-4F-23g"/>
+                            <constraint firstItem="5QB-CY-bU8" firstAttribute="leading" secondItem="XkV-b0-3nS" secondAttribute="leading" id="VW3-vL-D1b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XkV-b0-3nS" secondAttribute="trailing" id="eb4-CE-foE"/>
+                            <constraint firstItem="5QB-CY-bU8" firstAttribute="trailing" secondItem="XkV-b0-3nS" secondAttribute="trailing" id="ggY-es-dqx"/>
+                            <constraint firstItem="XkV-b0-3nS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="iMQ-gt-uMN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ON2-VF-7cv"/>
+                    <connections>
+                        <outlet property="cameraButton" destination="XkV-b0-3nS" id="PzA-Pi-5v7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="18.75"/>
+        </scene>
+        <!--Live CamVC-->
+        <scene sceneID="FST-rT-2ye">
+            <objects>
+                <viewController id="Yb4-Tt-7X9" customClass="LiveCamVC" customModule="Core_MLDigital" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SYO-wY-p8I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="lrv-oN-O2r">
+                                <rect key="frame" x="0.0" y="108" width="414" height="350"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="pDm-wc-QWn"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjE-wS-Ubd">
+                                <rect key="frame" x="0.0" y="478" width="414" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EGn-ak-hQA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AjE-wS-Ubd" firstAttribute="top" secondItem="lrv-oN-O2r" secondAttribute="bottom" constant="20" id="24h-5a-EYV"/>
+                            <constraint firstItem="5CW-w4-AIk" firstAttribute="trailing" secondItem="lrv-oN-O2r" secondAttribute="trailing" id="3gB-UM-Z1h"/>
+                            <constraint firstItem="AjE-wS-Ubd" firstAttribute="leading" secondItem="5CW-w4-AIk" secondAttribute="leading" id="4Ky-37-avw"/>
+                            <constraint firstItem="lrv-oN-O2r" firstAttribute="top" secondItem="5CW-w4-AIk" secondAttribute="top" constant="20" id="J62-wZ-Bh2"/>
+                            <constraint firstItem="5CW-w4-AIk" firstAttribute="trailing" secondItem="AjE-wS-Ubd" secondAttribute="trailing" id="JYp-Y1-wu1"/>
+                            <constraint firstItem="lrv-oN-O2r" firstAttribute="leading" secondItem="5CW-w4-AIk" secondAttribute="leading" id="Tsl-3A-TVc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5CW-w4-AIk"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelTexto" destination="AjE-wS-Ubd" id="kUB-kn-XIZ"/>
+                        <outlet property="viewLiveCamera" destination="lrv-oN-O2r" id="3hF-8c-XOr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jdj-PP-aS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757.9710144927537" y="18.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aJh-kO-z7c">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ItF-m5-xmL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DIE-74-keS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ItK-bI-nbe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VIZ-w8-EtA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="19"/>
+        </scene>
+    </scenes>
+</document>

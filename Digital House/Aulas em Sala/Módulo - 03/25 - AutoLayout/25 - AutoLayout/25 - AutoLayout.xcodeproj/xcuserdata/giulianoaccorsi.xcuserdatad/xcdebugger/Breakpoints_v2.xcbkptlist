@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "29345CC6-4996-42A1-BA60-80FD46F7B042"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE217089-ECAD-44B3-9F92-31D0D776767A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "25 - AutoLayout/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AE217089-ECAD-44B3-9F92-31D0D776767A - 78e2ff3a3836607f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5___AutoLayout.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _5___AutoLayout.ViewController"
+                  moduleName = "25 - AutoLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giulianoaccorsi/AulasDigitalHouse/Mo%CC%81dulo%20-%2003/25%20-%20AutoLayout/25%20-%20AutoLayout/25%20-%20AutoLayout/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "AE217089-ECAD-44B3-9F92-31D0D776767A - c7290fb5d14a06ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5___AutoLayout.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _5___AutoLayout.ViewController"
+                  moduleName = "25 - AutoLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giulianoaccorsi/AulasDigitalHouse/Mo%CC%81dulo%20-%2003/25%20-%20AutoLayout/25%20-%20AutoLayout/25%20-%20AutoLayout/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "359">
+               </Location>
+               <Location
+                  uuid = "AE217089-ECAD-44B3-9F92-31D0D776767A - d16b581dc22d97a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5___AutoLayout.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_5___AutoLayout.ViewController&gt;"
+                  moduleName = "25 - AutoLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giulianoaccorsi/AulasDigitalHouse/Mo%CC%81dulo%20-%2003/25%20-%20AutoLayout/25%20-%20AutoLayout/25%20-%20AutoLayout/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "AE217089-ECAD-44B3-9F92-31D0D776767A - 508706bb8972e6a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5___AutoLayout.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_5___AutoLayout.ViewController&gt;"
+                  moduleName = "25 - AutoLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giulianoaccorsi/AulasDigitalHouse/Mo%CC%81dulo%20-%2003/25%20-%20AutoLayout/25%20-%20AutoLayout/25%20-%20AutoLayout/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "AE217089-ECAD-44B3-9F92-31D0D776767A - 50b076025c60a873"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5___AutoLayout.ViewController.__deallocating_deinit"
+                  moduleName = "25 - AutoLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giulianoaccorsi/AulasDigitalHouse/Mo%CC%81dulo%20-%2003/25%20-%20AutoLayout/25%20-%20AutoLayout/25%20-%20AutoLayout/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6C4EDBF-58BA-4C55-BDBE-46E08A70DA77"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "25 - AutoLayout/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02C10155-8492-4D72-BB8A-491445B6C7B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "25 - AutoLayout/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

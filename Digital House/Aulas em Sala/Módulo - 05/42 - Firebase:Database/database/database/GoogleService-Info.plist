@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>863900364410-hocog9lv79s6r3jnbff3qaeeu0tdjjec.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.863900364410-hocog9lv79s6r3jnbff3qaeeu0tdjjec</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDu0LGmB69KQb9sUXwgjeJgJrb-pwAM6BQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>863900364410</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.facebookDigitalHouse2</string>
+	<key>PROJECT_ID</key>
+	<string>database-ff1c7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>database-ff1c7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:863900364410:ios:f3e0dcb63f45aa9f</string>
+	<key>DATABASE_URL</key>
+	<string>https://database-ff1c7.firebaseio.com</string>
+</dict>
+</plist>

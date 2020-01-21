@@ -1,0 +1,20 @@
+[{
+ "codigo" : "123",
+ "nome": "Felipe Silva",
+ "placa": "FAA1435",
+ "modelo": "Civic",
+ "celular": "995199443",
+ "prefixo": "654321",
+ "latitude": "-23.6125115",
+ "longitude": "-46.6311137"
+ },
+  {
+  "codigo" : "123",
+  "nome": "Patricia Aleixo",
+  "placa": "FBX1435",
+  "modelo": "Corola",
+  "celular": "995199443",
+  "prefixo": "654321",
+  "latitude": "-23.6125148",
+  "longitude": "-46.6302837"
+  }]

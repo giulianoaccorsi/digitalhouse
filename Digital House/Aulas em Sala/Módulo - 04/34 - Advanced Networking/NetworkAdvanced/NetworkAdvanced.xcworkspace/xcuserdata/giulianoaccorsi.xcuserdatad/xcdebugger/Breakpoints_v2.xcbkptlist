@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkAdvanced/Views/DetailView/DetailView.swift"
+            timestampString = "585106126.563701"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "postarButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkAdvanced.DetailView.postarButton(Any) -&gt; ()"
+                  moduleName = "NetworkAdvanced"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giulianoaccorsi/AulasDigitalHouse/Mo%CC%81dulo%20-%2004/34%20-%20Advanced%20Networking/NetworkAdvanced/NetworkAdvanced/Views/DetailView/DetailView.swift"
+                  timestampString = "585106126.681607"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "486">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in NetworkAdvanced.DetailView.postarButton(Any) -&gt; ()"
+                  moduleName = "NetworkAdvanced"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giulianoaccorsi/AulasDigitalHouse/Mo%CC%81dulo%20-%2004/34%20-%20Advanced%20Networking/NetworkAdvanced/NetworkAdvanced/Views/DetailView/DetailView.swift"
+                  timestampString = "585106126.689056"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

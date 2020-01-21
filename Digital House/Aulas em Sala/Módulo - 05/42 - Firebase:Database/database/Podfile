@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'database' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Alamofire'
+  pod 'Firebase'
+  pod 'ZVProgressHUD', :git => 'https://github.com/zevwings/ZVProgressHUD.git'
+  pod 'ProgressHUDSwift'
+
+  
+  
+pod 'Firebase/Database'
+  # Pods for database
+
+  target 'databaseTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'databaseUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

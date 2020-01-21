@@ -1,0 +1,6 @@
+framework module ProgressHUDSwift {
+  umbrella header "ProgressHUDSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

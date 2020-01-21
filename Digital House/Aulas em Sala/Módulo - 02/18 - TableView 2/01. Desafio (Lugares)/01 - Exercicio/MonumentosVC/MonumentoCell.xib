@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MonumentoCell" rowHeight="149" id="KGk-i7-Jjw" customClass="MonumentoCell" customModule="_1___Exercicio" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="149"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="148.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tuN-wU-JYS">
+                        <rect key="frame" x="0.0" y="0.0" width="421" height="148.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="derftgyhujikrftgyhj" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfc-uB-e8v">
+                        <rect key="frame" x="0.0" y="127.5" width="413" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Bfc-uB-e8v" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7bi-Bn-Tzm"/>
+                    <constraint firstAttribute="trailing" secondItem="tuN-wU-JYS" secondAttribute="trailing" id="7dd-e8-hoS"/>
+                    <constraint firstAttribute="bottom" secondItem="tuN-wU-JYS" secondAttribute="bottom" id="97H-G7-ugS"/>
+                    <constraint firstAttribute="trailing" secondItem="Bfc-uB-e8v" secondAttribute="trailing" constant="8" id="H4E-HI-cHI"/>
+                    <constraint firstAttribute="bottom" secondItem="Bfc-uB-e8v" secondAttribute="bottom" id="Naa-IE-HdL"/>
+                    <constraint firstItem="tuN-wU-JYS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ldk-Ei-odl"/>
+                    <constraint firstItem="tuN-wU-JYS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pms-hM-UNL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imagemMonumento" destination="tuN-wU-JYS" id="AYW-5P-FOx"/>
+                <outlet property="labelMonumento" destination="Bfc-uB-e8v" id="nAH-cG-SDm"/>
+            </connections>
+            <point key="canvasLocation" x="132.60869565217394" y="155.02232142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
